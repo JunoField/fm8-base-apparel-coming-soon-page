@@ -1,0 +1,25 @@
+{
+  "name": "fm8-base-apparel-coming-soon-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "shx rm -rf dist/*",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url https://junofield.github.io/fm8-base-apparel-coming-soon-page"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JunoField/fm8-base-apparel-coming-soon-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JunoField/fm8-base-apparel-coming-soon-page/issues"
+  },
+  "homepage": "https://github.com/JunoField/fm8-base-apparel-coming-soon-page#readme",
+  "dependencies": {
+    "parcel": "^2.6.2",
+    "shx": "^0.3.4"
+  }
+}
