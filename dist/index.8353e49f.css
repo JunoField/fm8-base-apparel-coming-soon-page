@@ -86,6 +86,12 @@ p {
   right: 0;
 }
 
+#email-error-msg {
+  font-size: 5pt;
+  position: absolute;
+  top: 40px;
+}
+
 footer {
   position: absolute;
   bottom: 0;

@@ -103,6 +103,13 @@ p{
     background: linear-gradient(100deg, $veryLightGreen, $lightGreen);
 }
 
+#email-error-msg{
+    position: absolute;
+    top: 40px;
+
+    font-size: 5pt;
+}
+
 
 footer{
     position: absolute;
