@@ -45,4 +45,31 @@ p {
   line-height: 22px;
 }
 
+#email-input-section {
+  text-align: center;
+  margin: 33px auto auto;
+}
+
+#email-input-section label {
+  display: none;
+}
+
+#email-input {
+  color: #ce9797;
+  height: 42px;
+  border: 1px solid #ce9797;
+  border-radius: 21px;
+  padding-left: 10px;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 400;
+}
+
+#submit-btn {
+  height: 44px;
+  color: #fff;
+  border: none;
+  border-radius: 21px;
+  margin: auto;
+}
+
 /*# sourceMappingURL=index.8353e49f.css.map */
