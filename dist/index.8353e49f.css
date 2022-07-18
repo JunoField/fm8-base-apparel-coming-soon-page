@@ -41,7 +41,7 @@ h1 {
   font-weight: 600;
 }
 
-p {
+#main-paragraph {
   color: #ce9797;
   margin: 16px 30px 0;
   font-family: Josefin Sans, sans-serif;
@@ -87,9 +87,21 @@ p {
 }
 
 #email-error-msg {
-  font-size: 5pt;
+  color: #f66060;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 12.8px;
+  font-weight: 600;
+  display: none;
   position: absolute;
-  top: 40px;
+  top: 42px;
+  left: 25px;
+}
+
+#email-error-icon {
+  display: none;
+  position: absolute;
+  top: 12px;
+  right: 70px;
 }
 
 footer {
@@ -100,6 +112,15 @@ footer {
 
 footer p {
   font-size: 10px;
+}
+
+.email-section-error #email-input {
+  border-width: 2px;
+  border-color: #f66060;
+}
+
+.email-section-error #email-error-icon, .email-section-error #email-error-msg {
+  display: unset;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -126,7 +147,7 @@ footer p {
     margin: 174px auto auto 164px;
   }
 
-  #text-section p {
+  #text-section #main-paragraph {
     margin: 22px auto auto;
     font-size: 16px;
     line-height: 28px;
@@ -162,6 +183,16 @@ footer p {
     height: 55px;
     width: 100px;
     border-radius: 30px;
+  }
+
+  #email-error-icon {
+    top: 16px;
+    right: 114px;
+  }
+
+  #email-error-msg {
+    top: 53px;
+    left: 32px;
   }
 }
 

@@ -6,6 +6,8 @@ $lightGrey: hsl(0, 16%, 83%);
 $veryLightGreen: hsl(58, 83%, 84%);
 $lightGreen: hsl(359, 86%, 78%);
 
+$errorRed: hsl(360, 89%, 67%);
+
 
 body{
     margin: 0px;
@@ -52,7 +54,7 @@ h1{
     margin: 0px 0px 0px 0px;
 }
 
-p{
+#main-paragraph{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14.5px;
     color: $desatRed;
@@ -104,10 +106,23 @@ p{
 }
 
 #email-error-msg{
+    font-family: 'Josefin Sans', sans-serif;
     position: absolute;
-    top: 40px;
+    top: 42px;
+    left: 25px;
 
-    font-size: 5pt;
+    font-size: 12.8px;
+    font-weight: 600;
+    color: $errorRed;
+    display: none; //default for when no error is needed
+}
+
+#email-error-icon{
+    position: absolute;
+    right: 70px;
+    top: 12px;
+
+    display: none; //default for when no error is needed
 }
 
 
@@ -119,6 +134,22 @@ footer{
     p{
         font-size: 10px;
     }
+}
+
+.email-section-error{
+    #email-input{
+        border-color: $errorRed;
+        border-width: 2px;
+    }
+
+    #email-error-icon{
+        display: unset;
+    }
+
+    #email-error-msg{
+        display: unset;
+    }
+    
 }
 
 
@@ -152,7 +183,7 @@ footer{
 
         margin: 174px auto auto 164px;
 
-        p{
+        #main-paragraph{
             font-size: 16px;
             margin: 22px auto auto auto;
             line-height: 28px;
@@ -190,6 +221,16 @@ footer{
         height: 55px;
         width: 100px;
         border-radius: 30px;
+    }
+
+    #email-error-icon{
+        top: 16px;
+        right: 114px;
+    }
+
+    #email-error-msg{
+        top: 53px;
+        left: 32px;
     }
 
 

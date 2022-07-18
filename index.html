@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./style.scss">
-  <script src="./validateemail.js"></script>
+  <!--<script src="./validateemail.js"></script>-->
 </head>
 <body>
   <img src="./images/logo.svg" id="logo">
@@ -23,13 +23,14 @@
     <h1 id="tagline-a">We're</h1>
     <h1 id="tagline-b">coming soon</h1>
 
-    <p>Hello fellow shoppers! We're currently building our new fashion store. 
+    <p id="main-paragraph">Hello fellow shoppers! We're currently building our new fashion store. 
     Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
     <div id="email-input-section">
       <label for="email-input">Email Address</label>
       <input type="email" id="email-input" name="email-input" placeholder="Email Address">
       <button id="submit-btn"><img src="./images/icon-arrow.svg" onclick="validateEmail()"></button>
+      <img src="./images/icon-error.svg" id="email-error-icon">
       <p id="email-error-msg">Please provide a valid email</p>
     </div>
 
