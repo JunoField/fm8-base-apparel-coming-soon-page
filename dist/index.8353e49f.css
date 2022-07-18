@@ -94,6 +94,7 @@ footer p {
 
 @media only screen and (min-width: 1000px) {
   body {
+    grid-template-rows: 100%;
     grid-template-columns: 50% 50%;
     display: grid;
   }
@@ -102,22 +103,24 @@ footer p {
     display: none;
   }
 
+  #text-section {
+    text-align: left;
+    width: 50%;
+    grid-area: 1 / 1;
+    margin: auto;
+  }
+
   #hero-desktop {
     width: 100%;
-    grid-column: 2;
+    grid-area: 1 / 2;
     display: block;
   }
 
   #logo {
     height: 32px;
-    margin: 67px auto auto 117px;
-  }
-
-  #text-section {
-    text-align: left;
-    width: 100%;
-    grid-column: 1;
-    margin: auto;
+    position: absolute;
+    top: 67px;
+    left: 117px;
   }
 }
 

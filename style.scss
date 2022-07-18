@@ -116,30 +116,37 @@ footer{
     body{
         display: grid;
         grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
     }
 
     #hero-mobile{
         display: none;
     }
+    
+    #text-section{
+
+        text-align: left;
+        grid-column: 1;
+        grid-row: 1;
+        width: 50%;
+
+        margin: auto;
+    }
 
     #hero-desktop{
         display: block;
         grid-column: 2;
+                grid-row: 1;
         width: 100%;
     }
 
     #logo{
-        margin: 67px auto auto 117px;
+        position: absolute;
+        top: 67px;
+        left: 117px;
         height: 32px;
     }
 
-    #text-section{
-        text-align: left;
-        grid-column: 1;
-        width: 100%;
-
-        margin: auto;
-    }
 
 
 
