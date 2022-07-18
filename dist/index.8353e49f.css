@@ -7,9 +7,13 @@ body {
   margin: 33px auto auto 32px;
 }
 
-#hero {
+#hero-mobile {
   width: 100%;
   margin-top: 27px;
+}
+
+#hero-desktop {
+  display: none;
 }
 
 main {
@@ -86,6 +90,35 @@ footer {
 
 footer p {
   font-size: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    grid-template-columns: 50% 50%;
+    display: grid;
+  }
+
+  #hero-mobile {
+    display: none;
+  }
+
+  #hero-desktop {
+    width: 100%;
+    grid-column: 2;
+    display: block;
+  }
+
+  #logo {
+    height: 32px;
+    margin: 67px auto auto 117px;
+  }
+
+  #text-section {
+    text-align: left;
+    width: 100%;
+    grid-column: 1;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */

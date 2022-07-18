@@ -16,9 +16,13 @@ body{
     margin: 33px auto auto 32px;
 }
 
-#hero{
+#hero-mobile{
     margin-top: 27px;
     width: 100%;
+}
+
+#hero-desktop{
+    display: none;
 }
 
 
@@ -107,5 +111,38 @@ footer{
 }
 
 
+//Desktop view
+@media only screen and (min-width = 1000px){
+    body{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #hero-mobile{
+        display: none;
+    }
+
+    #hero-desktop{
+        display: block;
+        grid-column: 2;
+        width: 100%;
+    }
+
+    #logo{
+        margin: 67px auto auto 117px;
+        height: 32px;
+    }
+
+    #text-section{
+        text-align: left;
+        grid-column: 1;
+        width: 100%;
+
+        margin: auto;
+    }
+
+
+
+}
 
     
