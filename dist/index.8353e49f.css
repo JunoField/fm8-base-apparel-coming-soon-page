@@ -103,23 +103,23 @@ footer p {
     display: none;
   }
 
+  #hero-desktop {
+    width: 100%;
+    grid-area: 1 / 2;
+    display: block;
+  }
+
   #text-section {
     text-align: left;
     width: 50%;
     grid-area: 1 / 1;
-    margin: auto auto 172px 168px;
+    margin: 174px auto auto 164px;
   }
 
   #text-section p {
-    margin: 18px auto auto;
+    margin: 22px auto auto;
     font-size: 16px;
     line-height: 28px;
-  }
-
-  #hero-desktop {
-    height: 100%;
-    grid-area: 1 / 2;
-    display: block;
   }
 
   #logo {
@@ -137,8 +137,8 @@ footer p {
   }
 
   #email-input-section {
-    width: 100%;
-    margin: 40px auto auto;
+    width: max(443px, 100%);
+    margin: 40px auto auto 0;
   }
 
   #email-input {

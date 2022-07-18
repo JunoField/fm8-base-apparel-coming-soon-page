@@ -122,7 +122,16 @@ footer{
     #hero-mobile{
         display: none;
     }
-    
+
+
+    #hero-desktop{
+        display: block;
+        grid-column: 2;
+        grid-row: 1;
+        width: 100%;
+        
+    }
+
     #text-section{
 
         text-align: left;
@@ -130,22 +139,15 @@ footer{
         grid-row: 1;
         width: 50%;
 
-        margin: auto auto 172px 168px;
+        margin: 174px auto auto 164px;
 
         p{
             font-size: 16px;
-            margin: 18px auto auto auto;
+            margin: 22px auto auto auto;
             line-height: 28px;
         }
     }
 
-    #hero-desktop{
-        display: block;
-        grid-column: 2;
-        grid-row: 1;
-        height: 100%;
-        
-    }
 
     #logo{
         position: absolute;
@@ -162,8 +164,8 @@ footer{
     }
 
     #email-input-section{
-        margin: 40px auto auto auto;
-        width: 100%;
+        margin: 40px auto auto 0px;
+        width: max(443px, 100%);
     }
 
     #email-input{
