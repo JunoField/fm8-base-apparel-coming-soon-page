@@ -58,6 +58,8 @@ p{
 
 #email-input-section{
     margin: 32px 31px auto 33px;
+    position: relative;
+
     label{
         display: none;
     }
@@ -81,9 +83,9 @@ p{
 }
 
 #submit-btn{
-    position: relative;
-    top: -48px;
-    right: -80%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 
     height: 48px;
     width: 65px;

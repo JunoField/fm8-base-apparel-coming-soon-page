@@ -47,6 +47,7 @@ p {
 
 #email-input-section {
   margin: 32px 31px auto 33px;
+  position: relative;
 }
 
 #email-input-section label {
@@ -72,9 +73,9 @@ p {
   background: linear-gradient(100deg, #f8f6b4, #f79798);
   border: none;
   border-radius: 25px;
-  position: relative;
-  top: -48px;
-  right: -80%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 footer {
