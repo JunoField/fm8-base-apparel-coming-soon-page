@@ -46,8 +46,7 @@ p {
 }
 
 #email-input-section {
-  text-align: center;
-  margin: 33px auto auto;
+  margin: 32px 31px auto 33px;
 }
 
 #email-input-section label {
@@ -55,21 +54,37 @@ p {
 }
 
 #email-input {
-  color: #ce9797;
-  height: 42px;
-  border: 1px solid #ce9797;
-  border-radius: 21px;
-  padding-left: 10px;
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  color: #dbcdcd;
+  border: 1px solid #dbcdcd;
+  border-radius: 25px;
+  padding-top: 4px;
+  padding-left: 24px;
   font-family: Josefin Sans, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 #submit-btn {
-  height: 44px;
-  color: #fff;
+  height: 48px;
+  width: 65px;
+  background: linear-gradient(100deg, #f8f6b4, #f79798);
   border: none;
-  border-radius: 21px;
-  margin: auto;
+  border-radius: 25px;
+  position: relative;
+  top: -48px;
+  right: -80%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+footer p {
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */
