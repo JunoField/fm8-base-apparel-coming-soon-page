@@ -1,4 +1,5 @@
 body {
+  background-color: #fff;
   margin: 0;
 }
 
@@ -111,6 +112,7 @@ footer {
 }
 
 footer p {
+  font-family: Josefin Sans, sans-serif;
   font-size: 10px;
 }
 
@@ -125,9 +127,11 @@ footer p {
 
 @media only screen and (min-width: 1000px) {
   body {
+    background: url("bg-pattern-desktop.52c178a3.svg");
     grid-template-rows: 100%;
     grid-template-columns: 58% 42%;
     display: grid;
+    overflow: hidden;
   }
 
   #hero-mobile {
@@ -136,6 +140,7 @@ footer p {
 
   #hero-desktop {
     width: 100%;
+    object-position: center top;
     grid-area: 1 / 2;
     display: block;
   }
@@ -193,6 +198,10 @@ footer p {
   #email-error-msg {
     top: 53px;
     left: 32px;
+  }
+
+  footer {
+    left: 0;
   }
 }
 

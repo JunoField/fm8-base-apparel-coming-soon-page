@@ -1,3 +1,4 @@
+$white: hsl(0, 0%, 100%);
 $desatRed: hsl(0, 36%, 70%);
 $softRed: hsl(0, 93%, 68%);
 $darkGreyishRed: hsl(0, 6%, 24%);
@@ -11,6 +12,7 @@ $errorRed: hsl(360, 89%, 67%);
 
 body{
     margin: 0px;
+    background-color: $white;
 }
 
 #logo{
@@ -133,6 +135,7 @@ footer{
 
     p{
         font-size: 10px;
+        font-family: 'Josefin Sans', sans-serif;
     }
 }
 
@@ -159,6 +162,9 @@ footer{
         display: grid;
         grid-template-columns: 58% 42%;
         grid-template-rows: 100%;
+        overflow: hidden;
+        background: url("./images/bg-pattern-desktop.svg");
+        background-position: 0 0;
     }
 
     #hero-mobile{
@@ -171,6 +177,7 @@ footer{
         grid-column: 2;
         grid-row: 1;
         width: 100%;
+        object-position: center top;
         
     }
 
@@ -233,6 +240,9 @@ footer{
         left: 32px;
     }
 
+    footer{
+        left: 0px;
+    }
 
 
 }
