@@ -7,7 +7,7 @@ $lightGrey: hsl(0, 16%, 83%);
 $veryLightGreen: hsl(58, 83%, 84%);
 $lightGreen: hsl(359, 86%, 78%);
 
-$greyHover: hsl(0, 78, 91);
+$greyHover: hsl(0, 78%, 91%);
 $errorRed: hsl(360, 89%, 67%);
 
 
@@ -35,6 +35,9 @@ main{
     text-align: center;
 }
 
+#text-section{
+    margin-bottom: 80px;
+}
 
 h1{
     font-family: 'Josefin Sans', sans-serif;

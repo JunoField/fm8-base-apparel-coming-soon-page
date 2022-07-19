@@ -21,6 +21,10 @@ main {
   text-align: center;
 }
 
+#text-section {
+  margin-bottom: 80px;
+}
+
 h1 {
   text-transform: uppercase;
   letter-spacing: 10px;
