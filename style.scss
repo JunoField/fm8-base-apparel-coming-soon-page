@@ -7,6 +7,7 @@ $lightGrey: hsl(0, 16%, 83%);
 $veryLightGreen: hsl(58, 83%, 84%);
 $lightGreen: hsl(359, 86%, 78%);
 
+$greyHover: hsl(0, 78, 91);
 $errorRed: hsl(360, 89%, 67%);
 
 
@@ -107,6 +108,12 @@ h1{
     background: linear-gradient(100deg, $veryLightGreen, $lightGreen);
 }
 
+#submit-btn:hover{
+    background: none;
+    background-color: $greyHover;
+    box-shadow: 2px 3px 10px black;
+}
+
 #email-error-msg{
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
@@ -129,7 +136,7 @@ h1{
 
 
 footer{
-    position: absolute;
+    position: fixed;
     right: 0px;
     bottom: 0px;
 
@@ -244,6 +251,17 @@ footer{
         left: 0px;
     }
 
+
+    //Desktop for low height
+    @media only screen and (max-height = 720px){
+        body{
+            overflow: unset;
+        }
+
+        #text-section{
+            margin-top: 100px;
+        }
+    }
 
 }
 
