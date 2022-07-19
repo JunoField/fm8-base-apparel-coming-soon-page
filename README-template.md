@@ -99,6 +99,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 
 https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+
+https://stackoverflow.com/questions/46155/how-can-i-validate-an-email-address-in-javascript
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
